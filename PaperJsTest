@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    canvas{
+      background:url('BTD Stage');
+      background-size:contain;
+      background-repeat:no-repeat;
+      border:1px solid black;
+      width:600px;
+      height:600px;
+    }
+  </style>
+<!-- Load the Paper.js library -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.8/paper-full.js"></script>
+<!-- Define inlined PaperScript associate it with myCanvas -->
+<script type="text/paperscript" canvas="myCanvas" src = "script.js">
+</script>
+</head>
+<body>
+	<canvas id="myCanvas"></canvas>
+</body>
+</html>
